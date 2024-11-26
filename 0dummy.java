@@ -22,6 +22,8 @@ public class InsecureDeserializationTask extends AssignmentEndpoint {
     String ADMIN_PASSWORD_LINK = "375afe1104f4a487a73823c50a9292a2";
 
 
+
+	
     @PostMapping("/InsecureDeserialization/task")
     @ResponseBody
     public AttackResult completed(@RequestParam String token) throws IOException {
